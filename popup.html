@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JSLogger Example</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+        text-align: center;
+        font-family: arial, sans-serif;
+        background: #F3F3F3;
+      }
+      ol {
+        text-align: left;
+      }
+      ol li {
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <!-- Load JSLogger from a local file. -->
+    <script src="jslogger.js"></script>
+  </head>
+  <body>
+    <a href="http://jslogger.com" target="_blank">
+      <img src="icon48.png">
+    </a>
+    <ol>
+      <li>
+        Inspect this popup in the browser's extension console to see the network requests to jslogger.com.
+      </li>
+      <li>
+        Click the buttons bellow to send requests to jslogger.com.
+      </li>
+    </ol>
+    <button id="raise-error-button">
+      Raise error
+    </button>
+    <button id="track-event-button">
+      Track event
+    </button>
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="popup.js"></script>
+  </body>
+</html>
