@@ -20,6 +20,6 @@ Set up you API key in the `popup.js` file.
 
 Load the extension in Google Chrome from your local file system ([Getting started with Chrome extensions][]).
 
-[jslogger.com]: http://jslogger.com/manage
+[jslogger.com]: http://jslogger.com
 [Code page]: http://jslogger.com/code
 [Getting started with Chrome extensions]: http://developer.chrome.com/extensions/getstarted.html
